@@ -2,7 +2,7 @@
 # original code : http://wiki.linuxwall.info/doku.php/en:ressources:dossiers:nginx:nginx_performance_tuning
 
 FILETYPES=( "*.html" "*.woff" "*.css" "*.jpg" "*.jpeg" "*.gif" "*.png" "*.js"  )
-DIRECTORIES="/var/www/aydos.be/ /var/www/aydos.com.local/"
+DIRECTORIES="/var/www/site1/ /var/www/site2/"
 
 for currentdir in $DIRECTORIES
 do
