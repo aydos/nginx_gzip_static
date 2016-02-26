@@ -1,5 +1,5 @@
 # nginx_gzip_static
-Shell script generates static gzip files for "gzip_static on" command
+Shell script generates static gzip files for nginx's "gzip_static on" directive.
 
 I found the original script at
    http://wiki.linuxwall.info/doku.php/en:ressources:dossiers:nginx:nginx_performance_tuning
