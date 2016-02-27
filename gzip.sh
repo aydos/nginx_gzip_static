@@ -9,7 +9,7 @@ do
 	for i in "${FILETYPES[@]}"
 	do
 		find $currentdir -iname "$i" -exec bash -c 'PLAINFILE={};GZIPPEDFILE={}.gz; \
-			if [ `stat --printf=%s $PLAINFILE` -gt 120 ]; \
+			if [ `stat --printf=%s $PLAINFILE` -gt 128 ]; \
 			then if [ -e $GZIPPEDFILE ]; \
 				then if [ `stat --printf=%Y $PLAINFILE` -gt `stat --printf=%Y $GZIPPEDFILE` ]; \
 					then echo "$GZIPPEDFILE outdated, regenerating"; \
