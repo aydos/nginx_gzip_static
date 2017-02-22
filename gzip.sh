@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 # original script : http://wiki.linuxwall.info/doku.php/en:ressources:dossiers:nginx:nginx_performance_tuning
 
 FILETYPES=( "*.html" "*.woff" "*.css" "*.jpg" "*.jpeg" "*.gif" "*.png" "*.js" "*.ico" "*.xml" )

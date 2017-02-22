@@ -5,3 +5,5 @@ I found the original script at
    http://wiki.linuxwall.info/doku.php/en:ressources:dossiers:nginx:nginx_performance_tuning
 
 The script was not check the file size so generate larger gz files for small files. So I added file size control. It dont compress the files less then or equal to 128 bytes. 
+
+## also check the project: https://github.com/aydos/gminzip
